@@ -1,0 +1,142 @@
+.container {
+  padding: 2rem 0;
+}
+
+.header__title {
+  font-size: 3.5rem;
+}
+
+.header__subtitle {
+  font-size: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+.header__btn,
+.form__btn {
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.625rem 1.25rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.header__btn:hover,
+.form__btn:hover {
+  background-color: #b6862d;
+  color: #f8e8d3;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.header__btn:focus,
+.form__btn:focus {
+  background-color: #b6862d;
+  color: #f8e8d3;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.subtitle__span {
+  color: #b6862d;
+}
+
+.advantages__box {
+  background-color: #f8e8d3;
+  border: 2px solid #d4af37;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  cursor: pointer;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  @media (max-width: 576px) {
+    margin: 0.5rem 1rem;
+  }
+}
+
+.advantages__box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.advantages__text-title {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.advantages__text {
+  font-size: 1rem;
+}
+
+.card {
+  background-color: #f8e8d3;
+
+  @media (max-width: 576px) {
+    margin: 0.5rem 1rem;
+  }
+}
+
+.card-footer {
+  background-color: #f3ede6;
+}
+
+.custom-img {
+  width: 95%;
+  margin: 0.5rem auto;
+  border-radius: 1rem;
+  display: block; /* Asegura que el centrado funcione */
+}
+
+.accordion {
+  @media (max-width: 576px) {
+    margin: 0.5rem 1rem;
+  }
+}
+
+.accordion-icon {
+  font-size: 1.5rem; /* Tamaño del icono */
+  margin-left: auto; /* Mueve el icono al lado derecho */
+}
+
+/* Eliminar el icono por defecto que Bootstrap agrega */
+.accordion-button::after {
+  content: none;
+}
+
+/* Estilo del icono personalizado (+ y -) */
+.accordion-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.accordion-button:focus,
+.form-control:focus {
+  border: 2px solid #d4af37;
+  box-shadow: 0 0 8px #d4af37;
+}
+
+/* Mostrar el + cuando el acordeón está colapsado */
+.accordion-button.collapsed .accordion-icon {
+  content: "+";
+}
+
+/* Mostrar el - cuando el acordeón está abierto */
+.accordion-button:not(.collapsed) .accordion-icon {
+  content: "-";
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #f8e8d3; /* Color del acordeón desplegado */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.accordion-body {
+  background-color: #f3ede6; /* Fondo del contenido */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.form {
+  @media (max-width: 576px) {
+    margin: 0.5rem 1rem;
+  }
+}

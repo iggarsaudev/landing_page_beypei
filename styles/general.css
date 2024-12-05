@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Colors */
+.color-primary {
+  background-color: #d4af37; /* botones, bordes */
+}
+.color-secundary {
+  background-color: #f5f5f7; /* fondo */
+}
+.color-tertiary {
+  background-color: #eaeaea; /* para alternar fondo */
+}
+/* End Colors */
+
+/* Fonts */
+.text-color {
+  color: #2c3e50; /* color texto */
+}
+
+.font-title {
+  /* títulos, subtítulos */
+  font-family: "Playfair Display", serif;
+}
+
+.font-text {
+  /* resto del texto */
+  font-family: "Lato", sans-serif;
+}
+
+.fw-bold {
+  font-weight: 700;
+}
+
+.fw-normal {
+  font-weight: 400;
+}
+
+.tt-uppercase {
+  text-transform: uppercase;
+}
+/* End Fonts */
