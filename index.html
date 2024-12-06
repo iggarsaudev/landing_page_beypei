@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- End Fonts -->
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- End Bootstrap -->
+    <link rel="stylesheet" href="../styles/index.css" />
+    <link rel="stylesheet" href="../styles/general.css" />
+    <title>Ejercicio - 02/12/2024</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header color-secundary">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-12">
+            <h1
+              class="header__title tt-uppercase font-title text-color fw-bold"
+            >
+              Descubre la elegancia que te mereces
+            </h1>
+            <h2 class="header__subtitle font-title text-color fw-normal">
+              Complementa tu estilo con nuestra nueva colección de collares y
+              pendientes.
+            </h2>
+            <a
+              href="#idForm"
+              class="header__btn color-primary text-color tt-uppercase font-text fw-bold"
+              >¡Consigue tu 15% de descuento!</a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <main>
+      <!-- Advantages -->
+      <section class="advantages color-tertiary">
+        <div class="container text-center">
+          <h2 class="advantages__subtitle text-color font-title fw-normal">
+            ¿Por qué elegir <span class="subtitle__span">BeyPei</span>?
+          </h2>
+          <div class="row">
+            <div class="col-12 col-sm-4">
+              <div class="advantages__box">
+                <p class="advantages__text-title text-color font-text fw-bold">
+                  Diseños Exclusivos
+                </p>
+                <p class="advantages__text text-color font-text fw-normal">
+                  Resalta tu personalidad con nuestras piezas únicas.
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-sm-4">
+              <div class="advantages__box">
+                <p class="advantages__text-title text-color font-text fw-bold">
+                  Materiales Premium
+                </p>
+                <p class="advantages__text text-color font-text fw-normal">
+                  Hipoalergénicos, duraderos y de alta calidad.
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-sm-4">
+              <div class="advantages__box">
+                <p class="advantages__text-title text-color font-text fw-bold">
+                  Envío Rápido
+                </p>
+                <p class="advantages__text text-color font-text fw-normal">
+                  Gratis en compras superiores a 30€ con envío.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Advantages -->
+
+      <!-- Reviews -->
+      <section class="reviews color-secundary">
+        <div class="container text-center">
+          <h2 class="reviews__subtitle text-color font-title fw-normal">
+            Lo que dicen nuestras clientas
+          </h2>
+          <div class="row row-cols-1 row-cols-sm-3 g-3">
+            <div class="col">
+              <div class="card h-100">
+                <img
+                  src="../img/img1.png"
+                  class="card-img-top custom-img"
+                  alt="Imagen Collar Sintra"
+                  aria-label="Imagen Collar Sintra"
+                />
+                <div class="card-body">
+                  <h5
+                    class="card-title text-color tt-uppercase font-title fw-bold"
+                  >
+                    Collar Sintra
+                  </h5>
+                  <p class="card-text text-color font-text fw-normal">
+                    "Estoy encantada con el collar que compré. Los materiales
+                    son de excelente calidad y no me causaron ninguna reacción
+                    alérgica. Además, el diseño es tan elegante que recibo
+                    cumplidos cada vez que lo uso. ¡Sin duda, volveré a comprar
+                    aquí!"
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary"
+                    >03 Diciembre 2024 (Ana M.)</small
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img
+                  src="../img/img2.png"
+                  class="card-img-top custom-img"
+                  alt="Imagen Pendientes Sunset"
+                  aria-label="Imagen Pendientes Sunset"
+                />
+                <div class="card-body">
+                  <h5
+                    class="card-title text-color tt-uppercase font-title fw-bold"
+                  >
+                    Pendientes Sunset
+                  </h5>
+                  <p class="card-text text-color font-text fw-normal">
+                    Compré unos pendientes como regalo para mi pareja y le
+                    encantaron. Llegaron en tiempo récord y con una presentación
+                    impecable. Me habría gustado que hubiera más opciones en
+                    color, pero la calidad lo compensa. Muy recomendable."
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary"
+                    >29 Noviembre 2024 (Marcos R.)</small
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img
+                  src="../img/img3.png"
+                  class="card-img-top custom-img"
+                  alt="Imagen Pendientes Joy"
+                  aria-label="Imagen Pendientes Joy"
+                />
+                <div class="card-body">
+                  <h5
+                    class="card-title text-color tt-uppercase font-title fw-bold"
+                  >
+                    Pendientes Joy
+                  </h5>
+                  <p class="card-text text-color font-text fw-normal">
+                    He comprado en varias ocasiones y todas han superado mis
+                    expectativas. Los diseños están muy cuidados y los
+                    materiales realmente se sienten premium. Además, el servicio
+                    al cliente fue excelente, resolvieron mis dudas rápidamente.
+                    ¡No podría estar más feliz con mi compra!"
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary"
+                    >20 Noviembre 2024 (Marta A.)</small
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img
+                  src="../img/img4.png"
+                  class="card-img-top custom-img"
+                  alt="Imagen Collar Sintra"
+                  aria-label="Imagen Collar Formentera"
+                />
+                <div class="card-body">
+                  <h5
+                    class="card-title text-color tt-uppercase font-title fw-bold"
+                  >
+                    Collar Formentera
+                  </h5>
+                  <p class="card-text text-color font-text fw-normal">
+                    "Me encanta la atención al detalle en cada producto. Es
+                    evidente que están hechos con mucho cuidado y dedicación. La
+                    experiencia de compra fue fácil y el envío gratuito en
+                    pedidos mayores a 30€ fue un gran plus. ¡100% recomendado!"
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary"
+                    >15 Noviembre 2024 (Sofía L.)</small
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Reviews -->
+
+      <!-- FAQs -->
+      <section class="faqs py-5 color-tertiary">
+        <div class="container">
+          <h2 class="text-center mb-4 text-color font-title fw-normal">
+            Preguntas Frecuentes
+          </h2>
+          <div class="accordion" id="accordionExample">
+            <!-- FAQs 1 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <!-- añado la clase collapsed para que todos empiecen colapsados -->
+                <button
+                  class="accordion-button collapsed text-color font-text fw-bold"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="false"
+                  aria-controls="collapseOne"
+                >
+                  ¿Cuánto tarda el envío?
+                  <span class="accordion-icon">+</span>
+                </button>
+              </h2>
+              <!-- elimino la clase show para que no muestre la respuesta -->
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse text-color font-text fw-normal"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Todos los pedidos se procesan en 24 horas y el tiempo de
+                  entrega es de 3 a 5 días hábiles, dependiendo de tu ubicación.
+                </div>
+              </div>
+            </div>
+            <!-- FAQs 2 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed text-color font-text fw-bold"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  ¿Puedo devolver un producto si no me gusta?
+                  <span class="accordion-icon">+</span>
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse text-color font-text fw-normal"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  ¡Por supuesto! Aceptamos devoluciones dentro de los 14 días
+                  posteriores a la entrega, siempre que el producto esté en
+                  perfecto estado.
+                </div>
+              </div>
+            </div>
+            <!-- FAQs 3 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed text-color font-text fw-bold"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  ¿Los materiales son hipoalergénicos?
+                  <span class="accordion-icon">+</span>
+                </button>
+              </h2>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse text-color font-text fw-normal"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Sí, todos nuestros productos están fabricados con materiales
+                  hipoalergénicos para evitar irritaciones y alergias.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End FAQs -->
+
+      <!-- Form -->
+      <section id="idForm" class="py-5 color-secundary">
+        <div class="container text-center mb-4 text-color font-title fw-normal">
+          <h2 class="mb-4">¡Regístrate y obtén tu 15% de descuento!</h2>
+          <form method="#" action="#" class="form row g-3 justify-content-center">
+            <div class="col-12 col-sm-4">
+              <label for="name" class="form-label">Nombre</label>
+              <input
+                id="name"
+                type="text"
+                class="form-control text-color font-text fw-normal"
+                placeholder="Tu nombre"
+                required
+              />
+            </div>
+            <div class="col-12 col-sm-4">
+              <label for="email" class="form-label">Correo electrónico</label>
+              <input
+                id="email"
+                type="email"
+                class="form-control text-color font-text fw-normal"
+                placeholder="email@email.com"
+                required
+              />
+            </div>
+            <div class="col-12">
+              <button
+                type="submit"
+                class="form__btn color-primary text-color tt-uppercase font-text fw-bold"
+              >
+                ¡Quiero mi descuento!
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+      <!-- End Form -->
+
+      <!-- Toast -->
+      <div
+        class="toast align-items-center color-primary text-color font-title fw-bold border-0 position-fixed top-0 end-0 m-3"
+        role="alert"
+        aria-live="assertive"
+        aria-atomic="true"
+        data-bs-autohide="true"
+        data-bs-delay="3000"
+      >
+        <!-- <div class="toast align-items-center bg-success text-white border-0 position-fixed top-0 end-0 m-3" role="alert" aria-live="assertive" aria-atomic="true" data-bs-autohide="true" data-bs-delay="3000"> -->
+        <div class="d-flex">
+          <div class="toast-body">¡Formulario enviado con éxito!</div>
+          <button
+            type="button"
+            class="btn-close btn-close-black me-2 m-auto"
+            data-bs-dismiss="toast"
+            aria-label="Close"
+          ></button>
+        </div>
+      </div>
+      <!-- End Toast -->
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white font-text fw-normal">
+      <div class="container text-center">
+        <small>© 2024 BeyPei. Todos los derechos reservados.</small>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../js/custom_accordion.js"></script>
+    <script src="../js/custom_toast.js"></script>
+    <!-- End Bootstrap -->
+  </body>
+</html>
